@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@spartan-ng/cli": "^0.0.1-alpha.445",
+    "tailwindcss": "^4.1.4"
+  }
+}

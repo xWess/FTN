@@ -1,0 +1,106 @@
+# Spring Boot
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+*.code-workspace
+
+### Angular ###
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Compiled output
+/frontendFTN/dist
+/frontendFTN/tmp
+/frontendFTN/out-tsc
+/frontendFTN/.angular
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/frontendFTN/.sass-cache
+/frontendFTN/connect.lock
+/frontendFTN/coverage
+/frontendFTN/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/frontendFTN/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Environment Files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/frontendFTN/src/environments/*.js
+/frontendFTN/src/environments/*.js.map
+
+# Package Lock Files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
