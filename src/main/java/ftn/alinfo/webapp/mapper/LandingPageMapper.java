@@ -1,7 +1,10 @@
 package ftn.alinfo.webapp.mapper;
 
 import ftn.alinfo.webapp.dto.*;
-import ftn.alinfo.webapp.entity.*;
+import ftn.alinfo.webapp.entity.contenu.Feature;
+import ftn.alinfo.webapp.entity.contenu.HeroSlide;
+import ftn.alinfo.webapp.entity.contenu.NewsItem;
+import ftn.alinfo.webapp.entity.evenements.Event;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import java.time.format.DateTimeFormatter;

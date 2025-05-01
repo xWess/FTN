@@ -1,9 +1,11 @@
-package ftn.alinfo.webapp.entity;
+package ftn.alinfo.webapp.entity.evenements;
 
+import ftn.alinfo.webapp.entity.securite.Admin;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.AllArgsConstructor;
+
 import java.time.LocalDateTime;
 
 @Data
@@ -44,4 +46,8 @@ public class Event {
         ONGOING,
         COMPLETED
     }
+
+    @ManyToOne
+    @JoinColumn(name = "createur_id")
+    private Admin createur;
 }

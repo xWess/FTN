@@ -1,6 +1,6 @@
 package ftn.alinfo.webapp.repository;
 
-import ftn.alinfo.webapp.entity.NewsItem;
+import ftn.alinfo.webapp.entity.contenu.NewsItem;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

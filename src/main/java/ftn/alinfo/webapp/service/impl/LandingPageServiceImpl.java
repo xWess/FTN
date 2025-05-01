@@ -56,7 +56,7 @@ public class LandingPageServiceImpl implements LandingPageService {
         log.debug("Fetching upcoming events from database");
         return eventRepository.findByDateTimeAfterAndStatusOrderByDateTimeAsc(
                 LocalDateTime.now(),
-                ftn.alinfo.webapp.entity.Event.EventStatus.UPCOMING,
+                ftn.alinfo.webapp.entity.evenements.Event.EventStatus.UPCOMING,
                 PageRequest.of(0, EVENTS_LIMIT)
             )
             .stream()
