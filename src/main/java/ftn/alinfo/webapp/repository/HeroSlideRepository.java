@@ -1,6 +1,6 @@
 package ftn.alinfo.webapp.repository;
 
-import ftn.alinfo.webapp.entity.HeroSlide;
+import ftn.alinfo.webapp.entity.contenu.HeroSlide;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

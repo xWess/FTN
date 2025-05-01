@@ -1,9 +1,9 @@
-package ftn.alinfo.webapp.entity;
+package ftn.alinfo.webapp.entity.contenu;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.AllArgsConstructor;
 
 @Data
 @Entity
@@ -14,12 +14,12 @@ public class Feature {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    
+
     @Column(nullable = false)
     private String title;
-    
+
     @Column(length = 1000)
     private String description;
-    
+
     private String link;
 }
